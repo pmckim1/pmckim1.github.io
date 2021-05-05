@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="Exploratory Data Analysis">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>EDA</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="EDA.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.13.2, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Site1",
+		"url": "index.html"
+}</script>
+    <meta property="og:title" content="EDA">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#73a3de">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-clearfix u-header u-palette-1-dark-2 u-sticky u-header" id="sec-ae07"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-active-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
+              <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol id="menu-hamburger" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</symbol>
+</defs></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="Home.html" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="EDA.html" style="padding: 10px 20px;">EDA</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="Case-Study-I.html" style="padding: 10px 20px;">Case Study I</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="Case-Study-2.html" style="padding: 10px 20px;">Case Study II</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="Ideas-for-Future-Research.html" style="padding: 10px 20px;">Future Research</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-white u-text-hover-palette-2-base" href="References-and-Contact.html" style="padding: 10px 20px;">References and Contact</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Home.html" style="padding: 10px 20px;">Overview</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="EDA.html" style="padding: 10px 20px;">EDA</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Case-Study-I.html" style="padding: 10px 20px;">Case Study I</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Case-Study-2.html" style="padding: 10px 20px;">Case Study II</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Ideas-for-Future-Research.html" style="padding: 10px 20px;">Future Research</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="References-and-Contact.html" style="padding: 10px 20px;">References and Contact</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+        <h3 class="u-text u-text-1">GWU Spring 2021<br>Capstone- Data Science
+        </h3>
+      </div></header>
+    <section class="-md -sm u-clearfix u-shading-50-xl u-shading-50-xs u-section-1" id="sec-7ecb">
+      <img class="u-expanded-width u-image u-image-1" src="images/b9a62428ba3e707168da4c42fed75bb95d443724c6ba10700b2f8701d6efe35da8380e7d213219c4bf00be01ace1634c4b5b0866b6507aaffefd41_1280.jpg" data-image-width="1280" data-image-height="804">
+      <div alt="" class="u-image u-image-circle u-image-2" data-image-width="1280" data-image-height="960"></div>
+      <div class="u-align-center u-container-style u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-group u-group-1">
+        <div class="u-container-layout u-container-layout-1">
+          <h1 class="u-text u-text-body-alt-color u-title u-text-1">Exploratory Data Analysis</h1>
+          <p class="u-text u-text-2">
+            <span class="u-text-body-alt-color">After the many preprocessing steps the data was ready for analysis<br>
+            </span>
+            <br>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-2" id="sec-ddde">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-body-alt-color u-text-1">Post Processing Metrics&nbsp;</h2>
+        <div class="u-clearfix u-expanded-width u-gutter-10 u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <div class="u-clearfix u-custom-html u-custom-html-1">
+                    <style></style>
+                    <p>
+                      <iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mckimpc/13.embed"></iframe>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2" src="">
+                <div class="u-container-layout u-valign-middle u-container-layout-2">
+                  <div class="u-expanded-height u-grey-15 u-shape u-shape-1"></div>
+                  <div class="u-align-right u-clearfix u-custom-html u-custom-html-2">
+                    <style></style>
+                    <p>
+                      <iframe width="500" height="500" frameborder="0" scrolling="no" src="//plotly.com/~mckimpc1/40.embed"></iframe>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="u-align-center u-clearfix u-custom-html u-custom-html-3">
+          <style></style>
+          <p>
+            <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~mckimpc1/42.embed"></iframe>
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-gradient u-section-3" id="sec-bcf9">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-body-alt-color u-text-1">Narratives of Significant Clusters</h2>
+        <div class="u-clearfix u-expanded-width u-layout-wrap u-layout-wrap-1">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-image u-layout-cell u-size-20 u-image-1" data-image-width="1280" data-image-height="853">
+                <div class="u-container-layout u-container-layout-1"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-20 u-image-2" data-image-width="1263" data-image-height="1280">
+                <div class="u-container-layout u-container-layout-2"></div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-size-20 u-image-3" data-image-width="1280" data-image-height="853">
+                <div class="u-container-layout u-container-layout-3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="u-align-left u-text u-text-body-alt-color u-text-2">
+          <li><b>2018 air missile strikes in Syria</b>
+            <br>
+          </li>
+          <li>Hurricane Ima</li>
+          <li>Covid-19 Vaccine</li>
+        </ul>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-4" id="sec-5ff3">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-text u-text-body-alt-color u-text-1">Narrative Chain Length​ Distribution Over Time </h2>
+        <div class="u-clearfix u-custom-html u-custom-html-1">
+          <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~mckimpc/128.embed"></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-5" id="sec-cffa">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h2 class="u-align-center u-text u-text-body-alt-color u-text-1">Full Corpus Depicted as a Network ( "Whos" Connected to Article Clusters</h2>
+        <div class="u-clearfix u-custom-html u-custom-html-1">
+          <iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~mckimpc1/196.embed"></iframe>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-left u-clearfix u-footer u-palette-1-dark-2 u-footer" id="sec-a9ec"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+  </body>
+</html>
